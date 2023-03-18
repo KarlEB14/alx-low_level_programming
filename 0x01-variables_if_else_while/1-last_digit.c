@@ -14,6 +14,7 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	printf(n % 10);
+	x = n % 10
+	printf("%d", x);
 	return (0);
 }
